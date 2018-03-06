@@ -16,7 +16,12 @@ public class Note {
     {
         comments.add(comment);
     }
-    
+    public  int numerOfComments(){
+        return comments.size();
+    }
+    public List<Comment> getComments(){
+        return comments;
+    }
     public String toString()
     {
         StringBuilder sb = new StringBuilder();
