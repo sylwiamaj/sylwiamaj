@@ -1,9 +1,11 @@
 package Cities;
 
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
 
 /**
  *
@@ -29,4 +31,20 @@ public class cities1 {
         cities1 c = new cities1();
         System.out.println(c.privinces);
     }
+    public Set<String> privinces()
+    {
+        return privinces.keySet();
+}
+    public List<String> cities (String province)
+    {
+     return privinces.get(privinces);  
+    }
+    public Map<String,String> provinceWithOneCity()
+    {
+        
+    }
+    
+public Collection<String> cities()
+{
+    
 }
